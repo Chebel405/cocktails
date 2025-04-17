@@ -4,11 +4,19 @@ import { Component } from '@angular/core';
   selector: 'app-footer',
   imports: [],
   template: `
-    <p>
-      footer works!
-    </p>
-  `,
-  styles: ``
+  <p class="text-sm text-semibold">© Dyma 2025-2026</p> `,
+  styles: `
+    :host{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color:var(--gray-700);
+      color:white;
+
+
+    }
+`
 })
 export class FooterComponent {
 
