@@ -1,5 +1,5 @@
-interface Cocktail {
-    imageURL: string;
+export interface Cocktail {
+    imageUrl: string;
     name: string;
     description: string;
 }
