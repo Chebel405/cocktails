@@ -1,5 +1,5 @@
 interface Cocktail {
-    image: string;
+    imageURL: string;
     name: string;
     description: string;
 }

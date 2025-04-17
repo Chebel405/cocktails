@@ -8,7 +8,6 @@ import { Component } from '@angular/core';
   styles: `
     :host{
       display: flex;
-      flex-direction: row;
       align-items: center;
       justify-content: center;
       background-color:var(--gray-700);

@@ -15,7 +15,6 @@ import { Component } from '@angular/core';
   styles: `
     :host{
       display: flex;
-      flex-direction: row;
       align-items: center;
       background-color:var(--primary);
       color:white;

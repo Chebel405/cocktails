@@ -2,8 +2,14 @@
 
     font-family: "Montserrat", sans-serif;
     --text-color: #222;
+    --gray-100: #dfe6e9;
     --primary: #7e22ce;
     --gray-700: #2c3a47;
+    --dark: #3b0764;
+    --light: #e9d5ff;
     --success: oklch(72.3% 0.219 149.579);
     --danger: oklch(57.7% 0.245 27.325);
+    --border: 1px solid var(--gray-100);
+    --radius: 24px;
+
 }
